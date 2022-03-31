@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+	<div th:fragment="contents" id="contents" class="content off-canvas-wrapper">
+		<!-- Menus-->
+		<div th:replace="fragments/menu :: menu"></div>		
+		<!-- Contents-->		
+		<div class="off-canvas-content" data-off-canvas-content="true">
+			<div class="console">
+				<form th:object="${command}" onsubmit="startLoop(); return false;">
+					<label for="command">nmap</label> <input type="text" id="command"
+						th:field="*{text}" /> <input type="submit" value=">" />
+				</form>
+			</div>
+			<div class="container" id="out-container">
+				<div class="out_container">
+					<div  th:replace="fragments/ongoing :: ongoing" 
+					th:fragment="ongoing" id="out-fragment">
+					</div>					
+					<div  th:replace="fragments/finished :: finished" 
+					th:fragment="finished" id="out-finished-fragment">
+					</div>
+				</div>
+			</div>			
+		</div>
+    </div>
+  </body>
+</html>

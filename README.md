@@ -8,8 +8,8 @@ It is an advanced graphical user interface for NMap tool. This project developed
 
 ## Screenshots
 
-![nmapgui](https://raw.githubusercontent.com/wiki/danicuestasuarez/NMapGUI/images/NMapGUI.png)
-![nmapgui](https://raw.githubusercontent.com/wiki/danicuestasuarez/NMapGUI/images/NMapGUIHTML.png)
-![nmapgui](https://raw.githubusercontent.com/wiki/danicuestasuarez/NMapGUI/images/NMapGUIGraph.png)
+![nmapgui](https://cyber7ron.github.io/assets/img/NMapGUI.png)
+![nmapgui](https://cyber7ron.github.io/assets/img/NMapGUIHTML.png)
+![nmapgui](https://cyber7ron.github.io/assets/img/NMapGUIGraph.png)
 
 

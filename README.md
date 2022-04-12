@@ -10,6 +10,6 @@ It is an advanced graphical user interface for NMap tool. This project developed
 
 ![nmapgui](https://cyber7ron.github.io/assets/img/NMapGUI.png)
 ![nmapgui](https://cyber7ron.github.io/assets/img/NMapGUIHTML.png)
-![nmapgui](https://cyber7ron.github.io/assets/img/NMapGUIGraph.png)
+
 
 
